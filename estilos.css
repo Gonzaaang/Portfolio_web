@@ -121,3 +121,24 @@
   .tema-claro h1, .tema-claro h2 {
     color: #000000; 
   }
+
+  .contacto {
+    text-align: center;
+    margin-top: 20px;
+    color:  #00e676; 
+  }
+  
+  .link-contacto {
+    font-size: 1.2em;
+    color:  #00e676; 
+    text-decoration: none;
+    border: 2px solid #ffffff;
+    padding: 10px 20px;
+    border-radius: 5px;
+    transition: background-color 0.3s, color 0.3s;
+  }
+  
+  .link-contacto:hover {
+    background-color: #ffffff;
+    color: #000000;
+  }
